@@ -1,0 +1,27 @@
+CPU
+AMD 4900
+Count: 5
+Price(1 piece): 1000
+Price: 5000
+Discount: 50%
+Total Price: 2500
+-
+ 
+CPU
+AMD 4900
+Count: 10
+Price(1 piece): 10000
+Price: 50000
+Discount: 50%
+Total Price: 25000
+-
+ 
+CPU
+AMD 4900
+Count: 5
+Price(1 piece): 1000
+Price: 5000
+Discount: 50%
+Total Price: 2500
+ 
+

@@ -3,6 +3,7 @@
 #define SHOP_COUNTER_DEF
 #include <string>
 #include <iostream>
+#include <fstream>
 class Shop_Counter
 {
 private:
@@ -31,6 +32,14 @@ public:
 
 	void showFullInfo();
 	void showShortInfo();
+
+	float calculatePriceWithoutDiscount();
+	float calculatePriceWithDiscount();
+
+	void saveFullInfoToFile(std::string fileName);
+	void saveShortInfoToFile(std::string fileName);
+
+	void readFullInfo(std::ifstream& f);
 };
 
 #endif
